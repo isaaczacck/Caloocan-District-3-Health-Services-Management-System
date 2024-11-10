@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  header {
+    background-color: #6db3a7;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  
+  .feature-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #d4f1c5;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    background-color: #f7f7f7;
+    padding: 2rem;
+  }
+  
+  .gallery-items {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .gallery-item {
+    background-color: #ccc;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Login Section */
+  .login {
+    background-color: #d4f1c5;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .login-box input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .google-login {
+    background-color: #4285f4;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
